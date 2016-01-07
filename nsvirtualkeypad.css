@@ -1,0 +1,38 @@
+/*! NSVirtualKeyPad v1.0.0 | (c) 2016 ABDUL NASSAR THALAYANCHERIL | Free and Open*/
+/*The plugin style*/
+
+.NSKey{
+          background-color: gray;
+          padding-left: 30px;
+          padding-right: 30px;
+          margin-right: 12px;
+          font-size: 63px;
+          cursor: pointer;   
+          padding-bottom: 2px;
+            
+        }
+
+        .NSKey:hover{
+          background-color: #9E9E9E;
+          padding-left: 30px;
+          padding-right: 30px;
+          margin-right: 12px;
+          font-size: 63px;
+          cursor: pointer;   
+          padding-bottom: 2px;
+        }
+
+        #NSdivKeyPadText{
+             display:none;
+             position: fixed;
+             bottom: 5px;      
+             text-align: center; 
+             z-index:999999;      
+        }
+         #NSdivKeyPadNumber{
+             display:none;
+             position: fixed;
+             bottom: 5px;  
+             text-align: center;
+             z-index:999999;    
+        }
