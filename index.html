@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Virtual Key Pad</title>
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <link href="Content/nsvirtualkeypad.css" rel="stylesheet" />
+    <script src="Scripts/nsvirtualkeypad.js"></script>
+
+    <script>
+    
+        $(document).ready(function () {
+        
+            $("#Text1").nsvirtualkey({
+                keypadtype:'NSTEXT'
+            });
+
+            $("#Text2").nsvirtualkey({
+                keypadtype: 'NSNUMERIC'
+            });
+            
+        });
+
+    </script>
+</head>
+<body>
+    <input id="Text1" type="text" placeholder="Text"  />
+    <input id="Text2" type="text" placeholder="Number" />
+</body>
+</html>
